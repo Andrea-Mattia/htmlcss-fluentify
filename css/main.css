@@ -169,11 +169,38 @@ h4 {
 
 .course p {
     padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.course hr {
+    width: 70px;
+    margin: auto;
+}
+
+.course > hr {
+    width: 1200px;
 }
 
 /* PLAN */
 .plan {
-    width: 33%;
+    width: 30%;
+    height: 100%;
+    margin: 2%;
+    text-align: center;
+}
+
+/* TUTOR */
+.tutor {
+    width: 28%;
+    height: 100%;
+    margin: 2%;
+    text-align: center;
+}
+
+/* PROGRESS */
+.progress {
+    width: 30%;
+    height: 100%;
     margin: 2%;
     text-align: center;
 }
