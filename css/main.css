@@ -143,16 +143,41 @@ h4 {
     font-size: 48px;
 }
 
-.jumbotron .info {
-    height: 100px;
+.info {
+    display: inline-block;
+    width: 100%;
     padding: 30px;
     text-align: center;
     background: #d3d3d3;
 }
 
-.jumbotron .info h2 {
+.info h2 {
     color: #000;
 }
+
+/* COURSE SECTION */
+.course img {
+    height: 100px;
+    width: 100px;
+    padding-bottom: 4%;
+}
+
+.course h2 {
+    padding-bottom: 4%;
+    color: #82be0d;
+}
+
+.course p {
+    padding-top: 4%;
+}
+
+/* PLAN */
+.plan {
+    width: 33%;
+    margin: 2%;
+    text-align: center;
+}
+
 
 
 
@@ -167,8 +192,8 @@ h4 {
     bottom: 0;
     left: 95%;
     min-width: 50px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
