@@ -111,12 +111,14 @@
         <section class="graph">
             <div class="container">
                 <!-- GRAPH IMG -->
-                <div class="graph-img">
-
+                <div class="graph-img w-50">
+                    <img src="./img/mountain.svg" alt="Mountain graph">
                 </div>
                 <!-- GRAPH TEXT -->
-                <div class="graph-text">
-
+                <div class="graph-text w50">
+                    <h2>Scopri il tuo livello iniziale e struttura un piano personalizzato</h2>
+                    <p>L'esperienza Fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oggi.</p>
+                    <a href="#">Scopri il nosto test di placement</a>
                 </div>
             </div>
         </section>
@@ -125,16 +127,27 @@
 
     <!-- FOOTER -->
     <footer class="foot">
-        <div class="container">
-            <div class="foot-text">
-
+        <div class="container clearfix">
+            <div class="foot-text float-left">
+                <h2>Struttura un piano</h2>
             </div>
-            <div class="foot-selection">
+            <div class="foot-selection float-left">
                 <ul class="menu-inline">
-
+                    <li>
+                        <label for="selection">Sono</label>
+                        <select name="selection" id="selection">
+                            <option value="none">...</option>
+                            <option value="male">Maschio</option>
+                            <option value="female">Femmina</option>
+                            <option value="non-specific">Preferisco non specificare</option>
+                        </select>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-green btn-big">Visualizza il tuo piano</a>
+                    </li>
                 </ul>
             </div>
-            <a href="" class="help btn btn-green">Help</a>
+            <a href="#" class="help btn btn-green">Help</a>
         </div>
     </footer>
 
