@@ -8,6 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    padding-top: 80px;
     color: #8b8b8b;
 }
 
@@ -77,6 +78,11 @@ h4 {
 
 /* MAIN HEADER */
 .main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
     line-height: 80px;
     text-transform: uppercase;
     font-size: 12px;
