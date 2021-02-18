@@ -501,3 +501,44 @@ h4 {
     text-decoration: none;
     color: #1877f2;
 }
+
+/* FOOTER */
+.foot {
+    height: 300px;
+    background: #17416b;
+}
+
+.foot h2 {
+    color: #fff;
+}
+
+/* FLUENTIFY T&C LIST */
+.flu-list {
+    width: 30%;
+    line-height: 2;
+    padding-top: 30px;
+}
+
+.bot-menu li {
+    list-style: none;
+}
+
+.bot-menu li a {
+    text-decoration: none;
+    color: #8b8b8b;
+}
+
+.bot-menu li a:hover {
+    color: #82be0d;
+}
+
+/* FLUENTIFY INFO */
+.flu-info {
+    width: 70%;
+    padding: 40px 0;
+    text-align: right;
+}
+
+.flu-info h2 {
+    padding-bottom: 40px;
+}
