@@ -408,7 +408,6 @@ h4 {
     padding-bottom: 4%;
 }
 
-.plan-bot h2,
 .plan-bot h3 {
     padding-bottom: 4%;
     color: #000;
@@ -477,4 +476,28 @@ h4 {
 
 .business p {
     padding-bottom: 14%;
+}
+
+/* FAQ SECTION */
+.faq {
+    height: 120px;
+    background: #0d325a;
+}
+
+.faq .container h2 {
+    padding-top: 30px;
+    color: #fff;
+}
+
+.faq .container h2 > span {
+    color: #f0a61c;
+}
+
+.faq .container h3 {
+    padding-top: 10px;
+}
+
+.faq .container a {
+    text-decoration: none;
+    color: #1877f2;
 }
