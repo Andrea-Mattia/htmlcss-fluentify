@@ -391,3 +391,90 @@ h4 {
 .company-text p {
     margin-bottom: 30px;
 }
+
+/* PLAN BOT SECTION */
+.plan-bot .container{
+    margin: 80px auto;
+}
+
+.plan-bot .container  h2{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.plan-bot img {
+    height: 100px;
+    width: 100px;
+    padding-bottom: 4%;
+}
+
+.plan-bot h2,
+.plan-bot h3 {
+    padding-bottom: 4%;
+    color: #000;
+}
+
+.plan-bot p {
+    padding-top: 4%;
+    padding-bottom: 6%;
+}
+
+.plan-bot hr {
+    height: 10px;
+    margin-bottom: 6%;
+}
+
+/* STUDENT */
+.student {
+    width: 20%;
+    height: 100%;
+    margin-top: 4%;
+    margin-left: 16%;
+}
+
+.student hr {
+    background: dodgerblue;
+}
+
+.student a {
+    color: dodgerblue;
+}
+
+/* WORKER */
+.worker {
+    width: 20%;
+    height: 100%;
+    margin: 4%;
+}
+
+.worker hr {
+    background: #f0a61c;
+}
+
+.worker a {
+    color: #f0a61c;
+}
+
+.worker p {
+    padding-bottom: 14%;
+}
+
+/* BUSINESS */
+.business {
+    width: 20%;
+    height: 100%;
+    margin-top: 4%;
+    margin-right: 16%;
+}
+
+.business hr {
+    background: #82be0d;
+}
+
+.business a {
+    color: #82be0d;
+}
+
+.business p {
+    padding-bottom: 14%;
+}
