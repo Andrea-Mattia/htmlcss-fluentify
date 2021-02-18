@@ -332,3 +332,34 @@ h4 {
     width: 1200px;
     margin: auto;
 }
+
+/* PC SECTION */
+.pc .container {
+    max-width: 500px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+/* PC TEXT */
+.pc .container h2,
+.pc .container h3,
+.pc .container p,
+.pc .container a {
+    margin: 20px auto;
+}
+
+.pc .container h2 {
+    color: #000;
+}
+
+.pc .container h2 > span {
+    color: #82be0d;
+}
+
+.pc .container h3 {
+    font-size: 12px;
+}
+
+.pc .container a {
+    color: dodgerblue;
+}
